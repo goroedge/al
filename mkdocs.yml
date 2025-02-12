@@ -1,0 +1,144 @@
+site_name: Autolevel
+#locale: ru
+theme:
+#  name: readthedocs
+  name: material
+#  name: mkdocs
+  language: ru
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  shortcuts:
+    help: 191    # ?
+    next: 78     # n
+    previous: 80 # p
+    search: 83   # s
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.tooltips
+    # - announce.dismiss
+    # - content.action.edit
+    # - content.action.view
+    # - content.code.annotate
+    # - content.code.copy
+    # - content.code.select
+    # - content.footnote.tooltips
+    - content.tabs.link
+    # - header.autohide
+    #- navigation.expand
+    - navigation.footer
+    - navigation.indexes
+    - navigation.instant
+    - navigation.instant.preview
+    #- navigation.instant.prefetch
+    #- navigation.instant.progress
+    #- navigation.prune
+    - navigation.sections
+    #- navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
+    - toc.follow
+    #- toc.integrate
+
+nav:
+  - Технология: 
+    - Восстановление металла: technology/steel.md
+    - Восстановление пластика: technology/plastic.md
+  - Примеры применения:
+    - Восстановление крыла: example/examlpe1.md
+  - Общая информация: 
+    - О компании: info/about.md
+    - Каталог: info/catalog.md
+    - Контакты: info/contacts.md
+markdown_extensions:
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.magiclink:
+      normalize_issue_symbols: true
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
+  - pymdownx.betterem:
+      smart_enable: all
+  - attr_list
+  - md_in_html
+#  - glightbox
+  - def_list
+  - admonition
+  - pymdownx.details
+  - pymdownx.blocks.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - toc:
+      permalink: true
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - abbr
+  - footnotes
+  - pymdownx.snippets:
+       auto_append: 
+         - docs/includes/abbr.md
+       url_download: true
+       base_path: 
+         - docs/includes/
+         - docs/includes/logo/
+         - .
+  - pymdownx.progressbar
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+plugins:
+  - search
+  - glightbox:
+       touchNavigation: true
+       loop: false
+       effect: zoom
+       slide_effect: slide
+       width: 100%
+       height: auto
+       zoomable: true
+       draggable: true
+       skip_classes:
+         - custom-skip-class-name
+       auto_caption: false
+       caption_position: bottom
+       background: white
+       shadow: true
+       manual: false
+
+extra_css:
+  - stylesheets/extra.css
+
+#hooks:
+#  - /docs/shortcodes.py
