@@ -59,8 +59,22 @@ nav:
   - Технология: 
     - Восстановление металла: technology/steel.md
     - Восстановление пластика: technology/plastic.md
+    - Инструменты: technology/tools.md
+    - Специальные техники:
+      - Техника нанесения грунта: technology/tools1.md
+      - Техника покраски: technology/tools2.md
+      - Техника замера вязкости краски, грунта, лака: technology/tools3.md
+      - Техника ручной обработки абразивными материалами: technology/tools4.md 
+      - Техника обработкаи механическими инструментами: technology/tools5.md 
   - Примеры применения:
-    - Восстановление крыла: example/examlpe1.md
+    - Восстановление кузова: 
+      - Крыло: example/examlpe1.md
+      - Стойка: example/examlpe5.md
+      - Дверь: example/examlpe6.md
+      - Капот: example/examlpe7.md
+    - Восстановление бампера: example/examlpe2.md
+    - Восстановление обшивки: example/examlpe3.md
+    - Восстановление торпедо: example/examlpe4.md
   - Общая информация: 
     - О компании: info/about.md
     - Каталог: info/catalog.md
@@ -120,25 +134,22 @@ markdown_extensions:
   - pymdownx.inlinehilite
 plugins:
   - search
-#  - glightbox:
-#       touchNavigation: true
-#       loop: false
-#       effect: zoom
-#       slide_effect: slide
-#       width: 100%
-#       height: auto
-#       zoomable: true
-#       draggable: true
-#       skip_classes:
-#         - custom-skip-class-name
-#       auto_caption: false
-#       caption_position: bottom
-#       background: white
-#       shadow: true
-#       manual: false
+  - glightbox:
+       touchNavigation: true
+       loop: false
+       effect: zoom
+       slide_effect: slide
+       width: 100%
+       height: auto
+       zoomable: true
+       draggable: true
+       skip_classes:
+         - custom-skip-class-name
+       auto_caption: false
+       caption_position: bottom
+       background: white
+       shadow: true
+       manual: false
 
 extra_css:
   - stylesheets/extra.css
-
-#hooks:
-#  - /docs/shortcodes.py
