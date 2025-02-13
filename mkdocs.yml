@@ -48,9 +48,9 @@ theme:
     #- navigation.instant.prefetch
     #- navigation.instant.progress
     #- navigation.prune
-    - navigation.sections
+    # - navigation.sections
     #- navigation.tabs.sticky
-    - navigation.top
+    # - navigation.top
     - navigation.tracking
     - toc.follow
     #- toc.integrate
@@ -66,6 +66,14 @@ nav:
       - Техника замера вязкости краски, грунта, лака: technology/tools3.md
       - Техника ручной обработки абразивными материалами: technology/tools4.md 
       - Техника обработкаи механическими инструментами: technology/tools5.md 
+    - Мастер-классы:
+      - Нанесение грунта: technology/mk1.md
+      - Выполнение сухой проявки: technology/mk2.md
+      - Как правильно обезжирить поверхность: technology/mk3.md
+      - Как правильно выполнять абразивную обработку: technology/mk4.md
+      - Как правильно покрасить деталь без снятия с автомобиля: technology/mk5.md
+      - Как правильно обклеить деталь: technology/mk6.md
+      - Как правильно выполнить полировку детали: technology/mk7.md
   - Примеры применения:
     - Восстановление кузова: 
       - Крыло: example/examlpe1.md
@@ -122,7 +130,8 @@ markdown_extensions:
        url_download: true
        base_path: 
          - docs/includes/
-         - docs/includes/logo/
+         - docs/snipp/
+         - docs/images/
          - .
   - pymdownx.progressbar
   - pymdownx.tabbed:
