@@ -34,3 +34,6 @@
 [kraskopult]: images/kraskopult.jpg "Краскопульт"
 [paint]: images/paint.jpg "Краска"
 [lac]: images/lac.jpg "Лак"
+[past-polirol]: images/past-polirol.jpg "Паста для полирования"
+[meh-cyrc]: images/meh-cyrc.jpg "Полировальный круг"
+[mashin]: images/mashin.jpg "Полировальная машина"
