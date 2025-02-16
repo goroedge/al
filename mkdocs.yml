@@ -78,12 +78,8 @@ nav:
   - Примеры применения:
     - Восстановление кузова: 
       - Крыло: example/examlpe1.md
-      - Стойка: example/examlpe5.md
-      - Дверь: example/examlpe6.md
-      - Капот: example/examlpe7.md
-    - Восстановление бампера: example/examlpe2.md
-    - Восстановление обшивки: example/examlpe3.md
-    - Восстановление торпедо: example/examlpe4.md
+      - Дверь: example/examlpe2.md
+    - Восстановление бампера: example/examlpe3.md
   - Общая информация: 
     - О компании: info/about.md
     - Каталог: info/catalog.md
