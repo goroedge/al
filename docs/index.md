@@ -7,7 +7,7 @@
 
 	[![pokraska-dveri]{align=left width=100}](technology/steel.md) Как восстанавливать металл
 
-	[:fontawesome-solid-arrow-right: подробнее](technology/steel.md)
+	[:fontawesome-solid-arrow-right: подробнее](/technology/steel/)
 
 - __Технология восстановления пластика__
 
@@ -15,7 +15,7 @@
 
 	[![pokraska-bampera]{align=left width=100}](technology/plastic.md) Как восстанавливать пластик
  
-    [:fontawesome-solid-arrow-right: подробнее](technology/plastic.md)
+    [:fontawesome-solid-arrow-right: подробнее](/technology/plastic/)
 	
 - __Техника нанесения шпатлевки:__
 
@@ -24,7 +24,7 @@
 	 __Шпатлевание:__ 
 заделка вмятин, небольших углублений, раковин, несплошностей в местах стыков, царапин и других дефектов окрашиваемых панелей. 
  
-    [:fontawesome-solid-arrow-right: подробнее](technology/tools-shpat.mdd)
+    [:fontawesome-solid-arrow-right: подробнее](/technology/tools-shpat/)
 
 - __Техника нанесения грунта:__
 
@@ -32,7 +32,7 @@
 
     Качество подготовки грунтовки перед покраской автомобильной детали влияет на качество и долговечность покрытия. 
 	
-    [:fontawesome-solid-arrow-right: подробнее](technology/tools1.md)
+    [:fontawesome-solid-arrow-right: подробнее](/technology/tools1/)
 	
 - __Техника покраски:__
 
@@ -40,7 +40,7 @@
  
     Для высококачественного нанесения краски важны все составляющие процесса окрашивания: отвердитель, разбавитель, температура, настройка и движение краскопульта.
 	
-    [:fontawesome-solid-arrow-right: подробнее](technology/tools3.md)
+    [:fontawesome-solid-arrow-right: подробнее](/technology/tools3/)
 
 - __Техника пневмораспыления:__
 
@@ -48,7 +48,7 @@
 
 	Пневмораспыление: наиболее распространенный способ на несения краски. Он заключается в дроблении АКМ струей сжатого воздуха до частиц диаметром 10— 60 мкм и переносе их к поверхности детали.
  
-    [:fontawesome-solid-arrow-right: подробнее](technology/tools5.md)
+    [:fontawesome-solid-arrow-right: подробнее](/technology/tools5/)
 	
 - __Технология определение вязкости жидкостей__
 
@@ -56,7 +56,7 @@
 
 	При проведении ремонтных работ необходимо замерять вязкость у: Грунтов, Красок, Лаков
  
-    [:fontawesome-solid-arrow-right: подробнее](technology/tools2.md)
+    [:fontawesome-solid-arrow-right: подробнее](/technology/tools2/)
 
 
 - __Техника шлифования__
@@ -65,7 +65,7 @@
 	
 	Шлифование: Шлифование служит для подготовки поверхностей под окраску. При шлифовании происходит механическое удаление частиц вещества с поверхности: 
 
-    [:fontawesome-solid-arrow-right: подробнее](technology/tools4.md)
+    [:fontawesome-solid-arrow-right: подробнее](/technology/tools4/)
 
 
 - __Примеры восстановления крыла автомобиля__
