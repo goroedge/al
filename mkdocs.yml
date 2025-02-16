@@ -61,11 +61,12 @@ nav:
     - Восстановление пластика: technology/plastic.md
     - Инструменты: technology/tools.md
     - Специальные техники:
+      - Техника нанесения шпатлевки: technology/tools-shpat.md
       - Техника нанесения грунта: technology/tools1.md
-      - Техника покраски: technology/tools2.md
-      - Техника замера вязкости краски, грунта, лака: technology/tools3.md
+      - Техника покраски: technology/tools3.md
+      - Техника пневмораспыления: technology/tools5.md
+      - Техника замера вязкости краски, грунта, лака: technology/tools2.md
       - Техника ручной обработки абразивными материалами: technology/tools4.md 
-      - Техника обработкаи механическими инструментами: technology/tools5.md 
     - Мастер-классы:
       - Нанесение грунта: technology/mk1.md
       - Выполнение сухой проявки: technology/mk2.md
