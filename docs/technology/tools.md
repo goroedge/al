@@ -5,7 +5,7 @@
 
 <div class="grid cards" markdown>
 
-- ![kraskopult]{align=left width=100} __краскораспылители__ — инструменты для нанесения красок и лаков; 
+- ![kraskopult2]{align=left width=100} __краскораспылители__ — инструменты для нанесения красок и лаков; 
 
 - ![kompressor]{align=left width=100} __компрессорная установка__ с системой подготовки воздуха; 
 

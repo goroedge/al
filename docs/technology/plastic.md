@@ -26,17 +26,9 @@
 
 ### Шпатлевка
 
-!!! warning ""
-	Этап Шпатлёвка состоят из двух подэтапов: __:material-numeric-1-circle:Конструкционная шпатлевка__, __:material-numeric-2-circle:Мягкая шпатлевка.__
-	
-	>Для ознакомления с каждым подэтапом переходите по специальным закладкам в информационного окне раздела (смотрите ниже). Каждый подэтап обозначен специальным цифровым символом, показывающим последовательность выполнения подэтапов: :material-numeric-1-circle::material-numeric-2-circle::material-numeric-3-circle:...
-
 ???+ note "Шпатлевка"
-	=== ":material-numeric-1-circle: Конструкционная шпатлевка"
-		--8<-- "2-1-shpat1-p.md"
-	    [:fontawesome-solid-arrow-right: следующий шаг](#__tabbed_2_2)
 
-	=== ":material-numeric-2-circle: Мягкая шпатлевка"
+	=== ":material-numeric-1-circle: Мягкая шпатлевка"
 		--8<-- "2-2-shpat2-p.md"
 	    [:fontawesome-solid-arrow-right: следующий шаг](#__tabbed_3_1)
 
@@ -51,7 +43,7 @@
 ???+ note "Абразивная обработка 1"
 
 	=== ":material-numeric-1-circle: Сухая проявка"
-		--8<-- "2-3-showup.md"
+		--8<-- "2-3-showup-p.md"
 	    [:fontawesome-solid-arrow-right: следующий шаг](#__tabbed_3_2)
 			
 	=== ":material-numeric-2-circle: Обезжиривание"
