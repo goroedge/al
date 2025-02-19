@@ -1,7 +1,9 @@
-site_name: Autolevel
+site_name: База знаний компании AUTOLEVEL 
 #locale: ru
 theme:
 #  name: readthedocs
+  logo: assets/logo2.png
+  favicon: assets/sign.png
   name: material
 #  name: mkdocs
   language: ru
